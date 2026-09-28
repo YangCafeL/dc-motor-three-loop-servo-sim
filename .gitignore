@@ -1,0 +1,25 @@
+# ===== 课程原始材料（版权原因不上传，如需上传请自行删除本段规则） =====
+自动控制课程设计.pptx
+ppt_images/
+ppt_text.txt
+
+# ===== 工作区/系统文件 =====
+.workbuddy/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== MATLAB / Simulink 自动生成文件（可随时重新生成） =====
+matlab/slprj/
+*.slxc
+*.asv
+*.autosave
+*.mex*
+matlab_crash_dump.*
+*.mat
+*.log
+
+# ===== Git / 编辑器 =====
+*.orig
+.vscode/
+.idea/
