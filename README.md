@@ -29,8 +29,7 @@
     └──────────────────── 编码器(16位量化) ───────────────┘
 ```
 
-本项目从**电机物理方程推导**出发，在 Simulink 中搭建了包含驱动限幅、传感器量化与
-频段噪声模型的完整三环伺服系统，完成课程任务书规定的全部 5 项任务：
+本项目从**电机物理方程推导**出发，在 Simulink 中搭建了包含驱动限幅、传感器量化与频段噪声模型的完整三环伺服系统，完成课程任务书规定的全部 5 项任务：
 频率特性分析、速度环动态指标测定、串联矫正设计、位置阶跃验证，以及
 **粒子群算法（PSO）仿真在环自动整定 PID**。
 
@@ -155,7 +154,7 @@ $$G_{open}(s)=\frac{\omega(s)}{U_a(s)}=\frac{K_m/J_e}{s\,(R_a+L_a s)+K_m K_b/J_e
 **① 克隆仓库**
 
 ```bash
-git clone https://github.com/<你的用户名>/auto-control-course-design.git
+git clone https://github.com/<YangCafeL>/auto-control-course-design.git
 cd auto-control-course-design/matlab
 ```
 
@@ -184,7 +183,6 @@ task5_pso_pid         % 任务五：PSO 优化 PID          (~5~15 min，290 次
 📦 auto-control-course-design
 ├── 📄 README.md                  ← 当前页面
 ├── 📄 设计报告.md                 ← 完整设计报告（推导/依据/分析）
-├── 📄 GitHub上传教程.md           ← 仓库搭建分步教程
 ├── 📄 LICENSE                    ← MIT 许可证
 └── 📂 matlab
     ├── 🎛️ motor_params.m          # 电机与控制器公共参数（单一数据源）
@@ -207,7 +205,6 @@ task5_pso_pid         % 任务五：PSO 优化 PID          (~5~15 min，290 次
 |---|---|
 | [设计报告.md](./设计报告.md) | 摘要、建模推导、参数依据、各任务结果分析、结论 |
 | [matlab/README.md](./matlab/README.md) | 脚本清单与结果汇总表 |
-| [GitHub上传教程.md](./GitHub上传教程.md) | Git 从初始化到推送的分步教程（跨平台） |
 
 ## 📄 许可证
 
