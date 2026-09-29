@@ -180,7 +180,7 @@ task5_pso_pid         % 任务五：PSO 优化 PID          (~5~15 min，290 次
 ### 📁 项目结构
 
 ```
-📦 auto-control-course-design
+📦 dc-motor-three-loop-servo-sim
 ├── 📄 README.md                  ← 当前页面
 ├── 📄 设计报告.md                 ← 完整设计报告（推导/依据/分析）
 ├── 📄 LICENSE                    ← MIT 许可证
