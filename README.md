@@ -154,8 +154,8 @@ $$G_{open}(s)=\frac{\omega(s)}{U_a(s)}=\frac{K_m/J_e}{s\,(R_a+L_a s)+K_m K_b/J_e
 **① 克隆仓库**
 
 ```bash
-git clone https://github.com/<YangCafeL>/auto-control-course-design.git
-cd auto-control-course-design/matlab
+git clone https://github.com/<YangCafeL>/dc-motor-three-loop-servo-sim.git
+cd dc-motor-three-loop-servo-sim/matlab
 ```
 
 **② 在 MATLAB 中打开该目录**，依次运行五个任务脚本：
